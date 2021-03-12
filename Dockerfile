@@ -16,6 +16,6 @@ RUN apk add -no-cache bash \
                       curl \
                       jq
 
-ADD updatedns.sh .
+COPY updatedns.sh .
 
 CMD ["updatedns.sh"]
