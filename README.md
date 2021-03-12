@@ -15,8 +15,7 @@ https://microbadger.com/images/sdesbure/gandilive
 [![circle ci status](https://circleci.com/gh/sdesbure/docker_gandi_livedns.svg?style=shield)](
 https://app.circleci.com/pipelines/github/sdesbure/docker_gandi_livedns
 "view on Circle CI")
-[![Known Vulnerabilities](https://snyk.io/test/github/sdesbure/docker_gandi_livedns/badge.svg)](
-https://snyk.io/test/github/sdesbure/docker_gandi_livedns)
+
 ## How to use
 
 ### Pull image
