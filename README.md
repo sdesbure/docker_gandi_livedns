@@ -1,7 +1,7 @@
 # GANDI Live DNS Docker
 
 Docker image to automatically update Gandi DNS with the current IP adress.
-Script "stolen" here: 
+Script "stolen" here:
 <https://github.com/sdesbure/rpi-docker-images/blob/master/gandi/updatedns.sh.v5>
 
 ## Docker image
@@ -27,11 +27,12 @@ docker pull sdesbure/gandilive
 ## Run container
 
 This image contains :
-- the python Gandi CLI for the v4 version
+
 - curl and jq to access Gandi REST API for the v5 version
 
 # Usage
-Use this image to update a DNS record to the current IP of the host: 
+
+Use this image to update a DNS record to the current IP of the host:
 
 ```shell
 docker run -e GANDI_API_KEY="YOUR GANDI API KEY" \
@@ -40,5 +41,5 @@ docker run -e GANDI_API_KEY="YOUR GANDI API KEY" \
            --name gandi sdesbure/gandilive:latest
 ```
 
-Every 5 minutes, the image will automatically check the current IP address of the host and, if necessary, update the DNS.
-
+Every 5 minutes, the image will automatically check the current IP address of
+the host and, if necessary, update the DNS.
