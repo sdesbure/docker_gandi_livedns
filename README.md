@@ -30,7 +30,7 @@ This image contains :
 
 - curl and jq to access Gandi REST API for the v5 version
 
-# Usage
+## Usage
 
 Use this image to update a DNS record to the current IP of the host:
 
