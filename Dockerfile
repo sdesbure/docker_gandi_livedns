@@ -18,4 +18,4 @@ RUN apk add --no-cache bash=5.1.0-r0 \
 
 COPY updatedns.sh .
 
-CMD ["updatedns.sh"]
+CMD ["/gandi/updatedns.sh"]
