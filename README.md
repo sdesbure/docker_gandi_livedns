@@ -12,8 +12,8 @@ https://microbadger.com/images/sdesbure/gandilive
 [![version information](https://images.microbadger.com/badges/version/sdesbure/gandilive.svg)](
 https://microbadger.com/images/sdesbure/gandilive
 "Get your own version badge on microbadger.com")
-[![circle ci status](https://circleci.com/gh/sdesbure/docker_gandilive.svg?style=shield)](
-https://app.circleci.com/pipelines/github/sdesbure/docker_gandilive
+[![circle ci status](https://circleci.com/gh/sdesbure/docker_gandi_livedns.svg?style=shield)](
+https://app.circleci.com/pipelines/github/sdesbure/docker_gandi_livedns
 "view on Circle CI")
 
 ## How to use
