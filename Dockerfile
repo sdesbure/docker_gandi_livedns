@@ -12,9 +12,9 @@ LABEL org.label-schema.vcs-ref=$VCS_REF \
 
 WORKDIR /gandi
 
-RUN apk add --no-cache bash \
-                      curl \
-                      jq
+RUN apk add --no-cache bash=5.1.0-r0 \
+                      curl=7.74.0-r1 \
+                      jq=1.6-r1
 
 COPY updatedns.sh .
 
