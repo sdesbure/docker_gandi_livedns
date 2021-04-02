@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # First check if the gandi cli is properly configured, otherwise configure it
-
+echo "Starting get IP loop"
 while true ; do
   # Get my current IP
   my_ip=$(curl -s https://api.ipify.org)
